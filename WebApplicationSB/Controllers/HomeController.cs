@@ -10,6 +10,10 @@ namespace WebApplicationSB.Controllers
     {
         public ActionResult Index()
         {
+            for (var i = 0; i < 500; ++i )
+            {
+                var test = "1";
+            }
             return View();
         }
 
